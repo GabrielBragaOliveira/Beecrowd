@@ -39,10 +39,13 @@ public class Ex3 {
     
     //fazer o b ficar negativo
     b = -1*b; 
-    
+    //conta da raiz do delta +b
     f = (b + Math.sqrt(delta));
+    //conta da raiz do delta - b
     f2 = (b - Math.sqrt(delta));
+    // divisão para saber o primeiro resultado
     r = f /(2*a);
+    // divisão para saber o segundo resultado
     r2= f2 /(2*a);
     
     //saber de existe algum resultado no calculo

@@ -26,14 +26,14 @@ import java.util.*;
 public class Ex7 {
     public static void main(String[] args) {
         Scanner ler = new Scanner(System.in);
-    
+    //variaveis
     int X, Y;
     int a = 0;
-    
+    //estrutura de repitição
     do{
     X = ler.nextInt();
     Y = ler.nextInt();
-    
+    //para saber em qual quadrante ta
     if(X > 0 && Y > 0){
         System.out.println("primeiro");
     }else{
@@ -47,6 +47,7 @@ public class Ex7 {
         System.out.println("quarto");
     }else{
         if(X == 0 || Y == 0){
+            //finalizar
             break;
         }
     }

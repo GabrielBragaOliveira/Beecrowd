@@ -26,13 +26,14 @@ import java.util.*;
 public class Ex8 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-    
+    //variaveis
     float N, M;
-    
+    //ler
     N = sc.nextFloat();
-    
+    // estrututa de repetição para mostrar todos os divisores
     for(int i = 0; i <= N; i++){
         M = N % i;
+        //mostrar de o resultado for igual a 0 mostra na tela o numero
         if(M == 0) {
            System.out.println(i);
         }

@@ -26,6 +26,7 @@ import java.util.*;
 public class Ex6 {
     public static void main(String[] args) {
         Scanner ler = new Scanner(System.in);
+        //variaveis
         int A, B, C; 
     int l, m, n;
         
@@ -35,6 +36,8 @@ public class Ex6 {
         l = 0;
         m = 0;
         n = 0;
+        
+        //colocar em ordem crescente
         if(A > B && A >C){
             l = A;
             if(B > C){

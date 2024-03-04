@@ -26,8 +26,9 @@ import java.util.*;
 public class Ex9 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-
+        //variavel de controle
         int casosTeste = sc.nextInt();
+        //estrutura de repetição para dizer se é ou não é perfeito
         for (int caso = 0; caso < casosTeste; caso++) {
             int x = sc.nextInt();
             if (ehPerfeito(x)) {
@@ -37,9 +38,11 @@ public class Ex9 {
             }
         }
     }
-    
+    //função para ver se o numero é perfeito
     public static boolean ehPerfeito(int num) {
+        //variavel
         int soma = 0;
+        //estrutura de repetição
         for (int i = 1; i < num; i++) {
             if (num % i == 0) {
                 soma += i;

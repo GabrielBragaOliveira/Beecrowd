@@ -26,9 +26,11 @@ import java.util.*;
 public class Ex4 {
     public static void main(String[] args) {
         Scanner ler = new Scanner(System.in);
-    double num;
+        //variavel
+        double num;
     num = ler.nextDouble();
     
+    //descobrir qual o intervalo para mostrar
     if (num >= 0 && num <= 25)
     {
         System.out.println("Intervalo [0,25]");

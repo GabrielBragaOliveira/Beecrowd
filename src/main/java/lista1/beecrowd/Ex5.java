@@ -27,11 +27,13 @@ public class Ex5 {
     public static void main(String[] args) {
         Scanner ler = new Scanner(System.in);
     
+    //variaveis
     float X, Y;
     
     X = ler.nextFloat();
     Y = ler.nextFloat();
     
+    //mostrar qual a coordenada
     if(X == 0 && Y != 0){
         System.out.printf("Eixo Y%n");
     }else if(X != 0 && Y == 0){
