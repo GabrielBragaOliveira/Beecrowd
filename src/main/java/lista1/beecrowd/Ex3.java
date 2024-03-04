@@ -27,9 +27,9 @@ public class Ex3 {
     public static void main(String[] args) {
         
     Scanner ler = new Scanner(System.in);
-    //variaveis
+    //variaveis com valores decimais
     Double a, b, c, r, r2, f, f2, delta;
-    
+    //ler valores decimais
     a = ler.nextDouble();
     b = ler.nextDouble();
     c = ler.nextDouble();
@@ -51,6 +51,7 @@ public class Ex3 {
     //saber de existe algum resultado no calculo
     if(delta > 0 &&  a != 0 )
     {
+        //%.5f%n deixa o numero com 5 casas decimais obrigatoriamente
         System.out.printf("R1 = %.5f%n", r);
       System.out.printf("R2 = %.5f%n", r2);
     }

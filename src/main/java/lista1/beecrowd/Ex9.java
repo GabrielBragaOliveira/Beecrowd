@@ -31,6 +31,7 @@ public class Ex9 {
         //estrutura de repetição para dizer se é ou não é perfeito
         for (int caso = 0; caso < casosTeste; caso++) {
             int x = sc.nextInt();
+            // ehPereito é a função
             if (ehPerfeito(x)) {
                 System.out.println(x + " eh perfeito");
             } else {
@@ -48,6 +49,7 @@ public class Ex9 {
                 soma += i;
             }
         }
+        //retorna se a soma for igual o numero
         return soma == num;
     }
 }

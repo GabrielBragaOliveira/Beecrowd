@@ -36,6 +36,7 @@ public class Ex1 {
         int st = (s%3600) % 60;//conversao dos segundos com o restante dos segundos dos minutos
         // h = horas, m = minutos, st = segundos
         
+        //%dn serve para colocar o numero sem casas decimais e %d%dn coloca em sequencia sem casas decimais
         System.out.printf("%d:%d:%d%n", h, m, st);//mostrar o tempo 00:00:00 com horas, minutos, segundos
  
     

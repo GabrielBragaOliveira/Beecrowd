@@ -28,6 +28,7 @@ public class Ex2 {
             Scanner ler = new Scanner(System.in);
          int a, b, c, d; //variaveis
     
+    //ler nunmero inteiro
     a = ler.nextInt();
      b = ler.nextInt();
       c = ler.nextInt();
